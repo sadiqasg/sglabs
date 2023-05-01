@@ -2327,7 +2327,7 @@ section {
     min-height: 100vh;
 }
 
-#services h1 {
+/* #services h1 {
     text-align: center;
     padding-top: 10%;
     margin-bottom: 60px;
@@ -2381,4 +2381,4 @@ section {
 
 #services .service:hover i {
     color: #fff;
-}
+} */

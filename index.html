@@ -26,6 +26,12 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/styles.css" rel="stylesheet">
+
+    <script>
+        function comingSoon() {
+            alert('Section under development\nDo check again soon :)')
+        }
+    </script>
 </head>
 
 <body>
@@ -43,10 +49,10 @@
                 <ul>
                     <li><a class="active " href="index.html">Home</a></li>
                     <!-- <li><a href="about.html">About</a></li> -->
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#" onclick="comingSoon()">Portfolio</a></li>
                     <!-- <li><a href="team.html">The Team</a></li> -->
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#" onclick="comingSoon()">Contact Us</a></li>
                     <!-- <li><a href="blog.html">Blog</a></li> -->
                     <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
@@ -82,13 +88,25 @@
                 <div class="carousel-container">
                     <p class="m-0 p-0" style="opacity: 0.7;">welcome to</p>
                     <h2 class="animate__animated animate__fadeInDow mb-0">SaGash Technology Lab</span></h2>
-                    <p class="animate__animated animate__fadeInUp mt-0">Where design meets performance</p>
-                    <p class="animate__animated animate__fadeInDown mt-2">Embrace the future with a digital presence, and make life easy for you and your customers</p>
-                    <a href="" class="btn-get-started animate__animated animate__fadeInUp">Services</a>
+                    <p class="animate__animated animate__fadeInUp mt-0">Modern technology | Timeless results</p>
+                    <p class="animate__animated animate__fadeInDown mt-2">Embrace the future with a digital presence,
+                        and make life easy for you and your customers</p>
+                    <a href="#services" class="btn-get-started animate__animated animate__fadeInUp">Services</a>
                 </div>
             </div>
 
             <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <p class="m-0 p-0" style="opacity: 0.7;">welcome to</p>
+                    <h2 class="animate__animated animate__fadeInDow mb-0">SaGash Technology Lab</span></h2>
+                    <p class="animate__animated animate__fadeInUp mt-0">Custom software | Exceptional results</p>
+                    <p class="animate__animated animate__fadeInDown mt-2">Empower your Business with Digital solutions,
+                        tailored for you</p>
+                    <a href="#services" class="btn-get-started animate__animated animate__fadeInUp">Services</a>
+                </div>
+            </div>
+
             <!-- <div class="carousel-item">
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
@@ -123,9 +141,70 @@
         </div>
     </section><!-- End Hero -->
 
+    <!-- ======= Main Content ======= -->
     <section id="services">
-        <div class="container">
-            
+        <div class="container text-center">
+            <h4 class="text-muted mt-4">Services</h4>
+            <section class="services">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 icon-box icon-box-pink" data-aos="fade-up">
+                                <div class="icon">
+                                    <i class='bx bx-desktop bx-flashing'></i>
+                                    <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAASxJREFUaEPtmN0NwjAQgz8mgA2ADWASGAUmgVFgEhgBJgAmAJ3USrQK7alJ/5Dz1Ifc1T67aeQJI1+TkeNHBPpWUAoMVYEFcABWgD33uW7AFdgD9lxYIQsZ4Asw6xN14N1PYF0mESJwAjYDA5/DOQPbb2whAo8BTj/HbBZa1hF4O2zWpUCVeEIKiEBieaRA339rKSAFIj9qWUgWkoUqbtC6SkTaw1OuU0inkMcnFXtkocgBJi8vWNpzjCZHENlQBCIHGF1eq4AFSNPo17TT4F5OCv8y2LJo0bLIoanwyrLaQj766y9rJI5ZwbwdN7i7mm1soDtvuOvuXLOxk4CszXuOCHisIAWAslU8g6tLyN09UiggAu5xBzZKgZjppahNoUAKHI17iEDj0SUq/AC1O0Yx76yDuQAAAABJRU5ErkJggg=="/> -->
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Web Design & Development</h5>
+                                    <p class="card-text">We build custom websites that meets business needs, using the
+                                        latest technologies to ensure your
+                                        website is fast, secure, and easy to navigate.</p>
+                                </div>
+                                <!-- <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="icon">
+                                    <i class='bx bx-desktop bx-flashing'></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Web Applications & Portal</h5>
+                                    <p class="card-text">Whether you need a simple website
+                                        or a complex and robust web application, we've got you covered. Let us help you
+                                        enhance
+                                        your online presence and reach more customers.</p>
+                                </div>
+                                <!-- <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="icon">
+                                    <i class='bx bx-desktop bx-flashing'></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Database Administration</h5>
+                                    <p class="card-text">We provide expert database management services to help you
+                                        store, organize, and retrieve your data efficiently. Our services include
+                                        database design, implementation, optimization, backup and recovery, performance
+                                        tuning, data migration, and security management. Let us handle your database
+                                        administration, so you can focus on your core business activities.</p>
+                                </div>
+                                <!-- <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
         </div>
     </section>
 
